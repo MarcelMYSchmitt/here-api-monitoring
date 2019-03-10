@@ -1,0 +1,13 @@
+version: '3'
+services:
+  here-monitoring:
+    image: here-monitoring
+    build:
+      context: .
+    environment:
+      HERE_APP_ID: 'appId'
+      HERE_APP_CODE: 'appCode'
+    ports:
+      - "3002:80"
+    volumes:
+      - ./src:/var/www/html

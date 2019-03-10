@@ -1,0 +1,4 @@
+name: falcon-here-monitoring
+version: 1.0.0
+appVersion: 1.0.0
+description: Deployments needed for the Here API monitoring
